@@ -19,6 +19,7 @@ const meta = {
   
   export const Primary: Story = {
     args: {
+      variant: 'text',
       title: "title",
       blurbs: ['Blurb 1', 'Blurb 2'],
     },

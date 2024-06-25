@@ -1,7 +1,12 @@
 import React from "react";
+import Section from "../common/Section";
 
 const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <Section title="Contact">
+      <div>contact stuff</div>
+    </Section>
+  );
 };
 
 export default Contact;

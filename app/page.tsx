@@ -8,6 +8,7 @@ import Contact from "@/components/contact/Contact";
 export default function Home() {
   return (
     <>
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <Nav />
         <Hero />

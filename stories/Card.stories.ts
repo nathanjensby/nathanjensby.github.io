@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import Card from '@/components/about/Card';
+import familyPhoto from "@/public/assets/Family_portfolio .png"
 
 const meta = {
     title: 'Card',
@@ -9,7 +10,6 @@ const meta = {
     },
     tags: ['autodocs'],
     argTypes: {
-    //   backgroundColor: { control: 'color' },
     },
     args: { title: '', blurbs: [] },
   } satisfies Meta<typeof Card>;
@@ -28,6 +28,6 @@ const meta = {
   export const ImgVariant: Story = {
     args: {
         variant: 'img',
-        imgSrc: ''
+        imgSrc: familyPhoto
     }
   }

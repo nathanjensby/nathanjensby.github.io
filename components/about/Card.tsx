@@ -1,17 +1,20 @@
-import React, { ReactNode } from "react";
+import React from "react";
+import Image, { StaticImageData } from "next/image";
 import { cn } from "@/utils/cn";
 
 interface CardProps {
   className?: string;
   title?: string;
-  imgSrc?: "";
+  imgSrc?: StaticImageData;
+  imgAlt?: string;
   blurbs?: string[];
   variant: "img" | "text";
 }
 
 const Card = ({
   variant = "text",
-  imgSrc = "",
+  imgSrc,
+  imgAlt = "",
   title = "",
   blurbs = [],
   className = "",
@@ -34,8 +37,8 @@ const Card = ({
         </>
       )}
 
-      {variant === "img" && (
-        <img src={imgSrc} className={cn("w-full", className)} />
+      {variant === "img" && imgSrc && (
+        <Image src={imgSrc} className={cn("w-full", className)} alt={imgAlt} />
       )}
     </div>
   );

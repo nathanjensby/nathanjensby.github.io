@@ -24,3 +24,10 @@ const meta = {
       blurbs: ['Blurb 1', 'Blurb 2'],
     },
   };
+
+  export const ImgVariant: Story = {
+    args: {
+        variant: 'img',
+        imgSrc: ''
+    }
+  }

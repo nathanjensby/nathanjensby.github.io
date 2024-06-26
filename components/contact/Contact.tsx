@@ -4,7 +4,7 @@ import Section from "../common/Section";
 const Contact = () => {
   return (
     <Section title="Contact">
-      <div>contact stuff</div>
+      <div>nathan.jensby@gmail.com</div>
     </Section>
   );
 };

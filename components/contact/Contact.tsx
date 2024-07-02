@@ -3,7 +3,7 @@ import Section from "../common/Section";
 
 const Contact = () => {
   return (
-    <Section title="Contact">
+    <Section id="contact" title="Contact">
       <div>nathan.jensby@gmail.com</div>
     </Section>
   );

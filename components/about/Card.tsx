@@ -22,7 +22,7 @@ const Card = ({
   return (
     <div
       className={cn(
-        "w-full rounded-xl p-4 m-2 border-slate-200 border-2",
+        `w-full h-full rounded-xl ${variant === "text" ? "p-4" : "overflow-hidden"} m-2 border-slate-200 border-2`,
         className
       )}
     >
@@ -30,7 +30,7 @@ const Card = ({
         <>
           <h3 className="text-4xl lg:text-xl mb-4">{title}</h3>
           {blurbs.map((blurb, index) => (
-            <p className="text-xl lg:text-sm mb-2" key={index}>
+            <p className="text-xl lg:text-sm mb-2 max-w-prose" key={index}>
               {blurb}
             </p>
           ))}

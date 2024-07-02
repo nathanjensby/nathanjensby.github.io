@@ -60,7 +60,7 @@ const About = () => {
   );
 
   return (
-    <Section title="About">
+    <Section id="about" title="About">
       {aboutItems.map((form, index) => {
         const isEven = index % 2 === 0;
         return (

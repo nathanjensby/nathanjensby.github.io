@@ -3,11 +3,11 @@ import Image from "next/image";
 
 const Nav = () => {
   const links = [
-    { text: "Home", href: "/home" },
-    { text: "About", href: "/about" },
-    { text: "Experience", href: "/experience" },
-    { text: "Skills", href: "/skills" },
-    { text: "Contact", href: "/contact" },
+    { text: "Home", href: "#home" },
+    { text: "About", href: "#about" },
+    { text: "Experience", href: "#experience" },
+    { text: "Skills", href: "#skills" },
+    { text: "Contact", href: "#contact" },
   ];
   return (
     <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">

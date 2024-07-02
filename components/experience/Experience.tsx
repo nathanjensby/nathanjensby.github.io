@@ -3,7 +3,7 @@ import Section from "../common/Section";
 
 const Experience = () => {
   return (
-    <Section title="Experience">
+    <Section id="experience" title="Experience">
       <div>experience stuff</div>
     </Section>
   );

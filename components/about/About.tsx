@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "@/components/about/Card";
 import Section from "../common/Section";
-import familyPic from "@/public/assets/Family_portfolio .png";
+import familyPic from "@/public/assets/FamilyPic.png";
 import occupationPic from "@/public/assets/OccupationPic.png";
 import recreationPic from "@/public/assets/RecreationPic.png";
 import motivationPic from "@/public/assets/enenagram_9w1.png";

@@ -1,4 +1,7 @@
 import type { Config } from "tailwindcss";
+const plugin = require('tailwindcss/plugin')
+import type { PluginAPI } from "tailwindcss/types/config";
+
 
 const config: Config = {
   content: [
@@ -9,6 +12,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        fall: {
+          '0%': { transform: 'translate(0%,-150%) skewX(0deg)' },
+          '50%': { transform: 'translate(0%,0%) skewX(-10deg)' },
+          '100%': { transform: 'translate(0%,150%) skewX(0deg)' },
+        },
+      },
+      animation: {
+        fall: 'fall 5s ease infinite',
+      },      
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -16,6 +29,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/container-queries'),
+],
 };
 export default config;

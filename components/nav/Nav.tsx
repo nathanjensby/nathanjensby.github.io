@@ -5,7 +5,7 @@ const Nav = () => {
   const links = [
     { text: "Home", href: "#home" },
     { text: "About", href: "#about" },
-    { text: "Experience", href: "#experience" },
+    // { text: "Experience", href: "#experience" },
     { text: "Skills", href: "#skills" },
     { text: "Contact", href: "#contact" },
   ];

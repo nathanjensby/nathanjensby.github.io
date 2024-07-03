@@ -34,7 +34,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-between max-w-md w-full my-8">
           {contactData.map((link, index) => (
-            <Icon {...link} />
+            <Icon key={index} {...link} />
           ))}
         </div>
       </div>

@@ -28,7 +28,7 @@ const Card = ({
     >
       {variant === "text" && (
         <>
-          <h3 className="text-4xl lg:text-xl mb-4">{title}</h3>
+          <h3 className="text-2xl lg:text-xl mb-4">{title}</h3>
           {blurbs.map((blurb, index) => (
             <p className="text-xl lg:text-sm mb-2 max-w-prose" key={index}>
               {blurb}

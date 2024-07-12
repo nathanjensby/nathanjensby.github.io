@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import Card from '@/components/about/Card';
+import Card from '@/components/common/Card';
 import familyPhoto from "@/public/assets/Family_portfolio .png"
 
 const meta = {

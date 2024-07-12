@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "@/components/about/Card";
+import Card from "@/components/common/Card";
 import Section from "../common/Section";
 import familyPic from "@/public/assets/FamilyPic.png";
 import occupationPic from "@/public/assets/OccupationPic.png";
@@ -17,7 +17,7 @@ const About = () => {
       blurbs: [
         "My wife of almost 10 years, Ginny, is a stay-at-home mother for our two children. She's got a great knack for making connections and solving problems and she's fiercely loyal to those she loves.",
         "Griffin is 5 and will be entering Kindergarten in the fall of 2024.  He's curious, talkative, and loves soccer and Mario.  Like his dad, he loves making others laugh.",
-        "Betty will be turning 3 in the fall of 2024.  She's our spicy little one.  Like her brother, she is very coordinated, active, and fast.  I think where Griff is more 'class clown', Betty will be more 'stand-up comedian'.",
+        "Betty will be turning 3 in the fall of 2024.  She's our spicy little one.  She is very coordinated, active, and curious.  I think where Griff is more 'class clown', Betty will be more 'stand-up comedian'.",
       ],
     },
     {

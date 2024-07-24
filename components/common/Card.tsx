@@ -22,7 +22,7 @@ const Card = ({
   return (
     <div
       className={cn(
-        `w-full justify-center rounded-xl p-8 lg:p-8 m-2 border-slate-200 border-2 flex flex-col items-center`,
+        `w-full justify-center rounded-xl p-8 m-2 border-slate-200 border-2 flex flex-col items-center`,
         className
       )}
     >

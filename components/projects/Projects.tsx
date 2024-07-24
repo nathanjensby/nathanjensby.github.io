@@ -3,6 +3,7 @@ import Section from "@/components/common/Section";
 import Icon from "@/components/common/Icon";
 import GithubIcon from "@/public/assets/icons8-github-384.png";
 import NicCageIcon from "@/public/assets/cagev2.png";
+import LeopardyIcon from "@/public/assets/LeopardyIcon.png";
 import { StaticImageData } from "next/image";
 
 type IProjectTile = {
@@ -26,6 +27,16 @@ const Projects = () => {
       projectIcon: NicCageIcon,
       projectHref: "https://clickcage.netlify.app/",
       projectAlt: "Link to Click Cage (Opens in a new tab)",
+    },
+    {
+      title: "Leopardy!",
+      description:
+        "For my wife's birthday this year, she requested we play a homemade version of Jeopardy! with some friends.  I used Vite with TypeScript and deployed via Netlify.",
+      githubHref: "https://github.com/nathanjensby/leopardy",
+      githubAlt: "Link to Github (Opens in a new tab)",
+      projectIcon: LeopardyIcon,
+      projectHref: "https://leopardy.netlify.app/",
+      projectAlt: "Link to Leopardy (Opens in a new tab)",
     },
   ];
 

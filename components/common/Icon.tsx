@@ -9,7 +9,7 @@ interface IconProps {
 
 const Icon = ({ icon, alt, href }: IconProps) => {
   return (
-    <div className="bg-slate-200 flex justify-center items-center rounded-3xl max-w-12 border-2 border-slate-200">
+    <div className="bg-slate-200 flex justify-center items-center rounded-3xl max-w-12 max-h-12 border-2 border-slate-200">
       <a href={href} target="_blank">
         <Image alt={alt} src={icon} />
       </a>

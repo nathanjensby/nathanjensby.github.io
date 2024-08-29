@@ -1,8 +1,8 @@
 import React from "react";
-import Section from "../common/Section";
+import Section from "@/components/common/Section";
 import Box from "./Box";
 
-const Skills = () => {
+const Page = () => {
   const skills = [
     "Typescript",
     "React",
@@ -27,4 +27,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Page;

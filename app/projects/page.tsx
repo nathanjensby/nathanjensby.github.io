@@ -16,7 +16,7 @@ type IProjectTile = {
   projectAlt: string;
 };
 
-const Projects = () => {
+const Page = () => {
   const projectsData = [
     {
       title: "Click Cage",
@@ -70,4 +70,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Page;

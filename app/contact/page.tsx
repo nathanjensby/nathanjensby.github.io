@@ -8,7 +8,7 @@ import TwitterIcon from "@/public/assets/twitter.png";
 import GithubIcon from "@/public/assets/icons8-github-384.png";
 import EmailIcon from "@/public/assets/emailIcon.png";
 
-const Contact = () => {
+const Page = () => {
   const contactData = [
     {
       icon: LinkedInIcon,
@@ -48,4 +48,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Page;

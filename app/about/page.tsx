@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "@/components/common/Card";
-import Section from "../common/Section";
+import Section from "../../components/common/Section";
 import familyPic from "@/public/assets/FamilyPic.png";
 import occupationPic from "@/public/assets/OccupationPic.png";
 import recreationPic from "@/public/assets/RecreationPic.png";
@@ -8,7 +8,7 @@ import motivationPic from "@/public/assets/enenagram_9w1.png";
 
 import { StaticImageData } from "next/image";
 
-const About = () => {
+const Page = () => {
   const aboutItems = [
     {
       imgSrc: familyPic,
@@ -81,4 +81,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Page;

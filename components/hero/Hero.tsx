@@ -1,5 +1,4 @@
 import React from "react";
-import DownCaret from "./DownCaret";
 
 const Hero = () => {
   const TypographyAnimation = () => {
@@ -32,15 +31,12 @@ const Hero = () => {
   };
 
   return (
-    <div className="h-[95vh] lg:h-[85vh] flex flex-col items-center justify-center ">
+    <div className=" flex flex-col items-center justify-center ">
       <div className="py-10 flex flex-col items-center justify-center">
         <h1 className=" text-6xl sm:text-8xl md:text-9xl font-bold text-center my-10 lg:my-5">
           <TypographyAnimation />
         </h1>
         <p className="text-4xl lg:text-2xl">UX Developer</p>
-      </div>
-      <div className="mt-16">
-        <DownCaret />
       </div>
     </div>
   );

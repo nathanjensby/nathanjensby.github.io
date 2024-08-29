@@ -34,7 +34,7 @@ const Page = () => {
   return (
     <Section id="contact" title="Contact">
       <div className="flex flex-col justify-center items-center">
-        <h3 className="m-2">nathan.jensby@gmail.com</h3>
+        <h2 className="m-2">nathan.jensby@gmail.com</h2>
         <div className="max-w-md rounded-xl border-slate-200 border-2 overflow-hidden m-4">
           <Image alt="Self portrait" src={portrait} />
         </div>

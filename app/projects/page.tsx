@@ -50,7 +50,7 @@ const Page = () => {
     projectIcon,
   }: IProjectTile) => (
     <div className="flex flex-col p-8 m-2 max-w-[400px] border-slate-200 border-2 rounded-xl">
-      <h3 className="flex justify-center text-xl pb-8">{title}</h3>
+      <h2 className="flex justify-center text-xl pb-8">{title}</h2>
       <p className="pb-8">{description}</p>
       <div className="flex justify-around">
         <Icon icon={GithubIcon} href={githubHref} alt={githubAlt} />
